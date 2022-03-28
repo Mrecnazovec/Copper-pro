@@ -1,0 +1,162 @@
+    @media screen and (max-width:1200px) {
+        .header {
+            height: 770px;
+        }
+        .header_box_pos2 {
+            right: 50px;
+        }
+        .header_box_pos3 {
+            right: 120px;
+        }
+        .header_box_pos1 {
+            right: 190px;
+        }
+    }
+    
+    @media screen and (max-width:991px) {}
+    
+    @media screen and (max-width:768px) {
+        .mainTwo_content_box1 {
+            display: none;
+        }
+        .pre_last_box1 {
+            display: none;
+        }
+        .strelki {
+            display: none;
+        }
+        .strelki2 {
+            display: none;
+        }
+        .header {
+            background-image: url(../assets/images/BG\ tablet.png);
+            height: 1024px;
+        }
+        .container {
+            max-width: 670px;
+        }
+        .list_navbar {
+            flex-direction: column;
+            align-items: start;
+        }
+        .navbar_logo {
+            margin-bottom: 50px;
+            margin-right: 0;
+            padding-top: 30px;
+        }
+        .mainFour {
+            background-image: url(../assets/images/bg\ tablet\ 2.png);
+            height: 483px;
+        }
+        .header_section_content_button2 {
+            margin-bottom: 50px;
+        }
+        .footer_list {
+            flex-direction: column;
+        }
+        .footer_item:first-child {
+            margin-bottom: 48px;
+        }
+        .footer_item_text {
+            margin-bottom: 5px;
+        }
+        .mainFour {
+            margin-bottom: 80px;
+        }
+        .footer_list_two {
+            flex-direction: column;
+            text-align: center;
+        }
+        .footer_list_two {
+            width: 100%;
+        }
+        .footer_item {
+            margin: auto;
+        }
+    }
+    
+    @media screen and (max-width:566px) {
+        .pre_last_box2 {
+            display: none;
+        }
+        .mainTwo_content_box2 {
+            display: none;
+        }
+        .last_content_box {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .header_box_pos4 {
+            display: flex;
+        }
+        .header_box_pos2 {
+            display: none;
+        }
+        .item_navbar:last-child {
+            display: none;
+        }
+        .navbar {
+            margin-bottom: 55px;
+        }
+        .header_section_content_title {
+            font-family: 'Lighthaus';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 114.9%;
+            /* or 34px */
+            color: #FFFFFF;
+            margin-bottom: 50px;
+        }
+        .header_section_content_info {
+            font-family: 'Mont';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 20px;
+            line-height: 128.4%;
+            /* or 26px */
+            color: #FFFFFF;
+            margin-bottom: 15px;
+        }
+        .header {
+            background-image: url(../assets/images/BG\ tel.png);
+            height: 729px;
+        }
+        .header_section_content_price_text {
+            font-family: 'Mont';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 96.4%;
+            /* or 15px */
+            color: #FFFFFF;
+        }
+        .header_section_content_button {
+            margin-bottom: 200px;
+            padding: 16px 70px;
+        }
+        .header_section_content_price_number {
+            font-family: 'Mont';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 16px;
+            line-height: 96.4%;
+            /* or 15px */
+            color: #FFFFFF;
+        }
+        .mainFour {
+            background-image: url(../assets/images/bg\ tel\ 2.png);
+            height: 772px;
+        }
+        .header_box_pos3 {
+            right: 60px;
+        }
+        .header_box_pos1 {
+            right: 130px;
+        }
+        .header_section_content_button2 {
+            padding: 16px 63px;
+        }
+    }

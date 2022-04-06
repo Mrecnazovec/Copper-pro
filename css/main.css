@@ -288,6 +288,51 @@ p {
     margin-bottom: 40px;
 }
 
+.hover_text_one {
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 96.4%;
+    /* identical to box height, or 39px */
+    text-align: center;
+    color: red;
+    position: absolute;
+    top: 90px;
+    left: 120px;
+    display: none;
+}
+
+.hover_text_two {
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 96.4%;
+    /* or 67px */
+    text-align: center;
+    color: red;
+    position: absolute;
+    right: 50px;
+    top: 140px;
+    display: none;
+}
+
+.hover_text_three {
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 96.4%;
+    /* or 96px */
+    text-align: center;
+    color: red;
+    position: absolute;
+    left: 80px;
+    bottom: 120px;
+    display: none;
+}
+
 .row {}
 
 .col-xl-4 {}
@@ -298,6 +343,18 @@ p {
 
 .col-sm-6 {}
 
+.mainOne_content_box:hover .hover_text_three {
+    display: block;
+}
+
+.mainOne_content_box:hover .hover_text_two {
+    display: block;
+}
+
+.mainOne_content_box:hover .hover_text_one {
+    display: block;
+}
+
 .mainOne_content_box {
     background-image: url(../assets/icons/4.svg);
     height: 445px;
@@ -306,6 +363,7 @@ p {
     display: flex;
     align-items: end;
     justify-content: center;
+    position: relative;
 }
 
 .mainOne_content_box2 {
@@ -316,6 +374,19 @@ p {
     display: flex;
     align-items: end;
     justify-content: center;
+    position: relative;
+}
+
+.mainOne_content_box2:hover .hover_text_three {
+    display: block;
+}
+
+.mainOne_content_box2:hover .hover_text_two {
+    display: block;
+}
+
+.mainOne_content_box2:hover .hover_text_one {
+    display: block;
 }
 
 .mainOne_content_box3 {
@@ -326,6 +397,19 @@ p {
     display: flex;
     align-items: end;
     justify-content: center;
+    position: relative;
+}
+
+.mainOne_content_box3:hover .hover_text_three {
+    display: block;
+}
+
+.mainOne_content_box3:hover .hover_text_two {
+    display: block;
+}
+
+.mainOne_content_box3:hover .hover_text_one {
+    display: block;
 }
 
 .mainOne_content_box4 {
@@ -336,6 +420,19 @@ p {
     display: flex;
     align-items: end;
     justify-content: center;
+    position: relative;
+}
+
+.mainOne_content_box4:hover .hover_text_three {
+    display: block;
+}
+
+.mainOne_content_box4:hover .hover_text_two {
+    display: block;
+}
+
+.mainOne_content_box4:hover .hover_text_one {
+    display: block;
 }
 
 .mainOne_content_box5 {
@@ -346,6 +443,19 @@ p {
     display: flex;
     align-items: end;
     justify-content: center;
+    position: relative;
+}
+
+.mainOne_content_box5:hover .hover_text_three {
+    display: block;
+}
+
+.mainOne_content_box5:hover .hover_text_two {
+    display: block;
+}
+
+.mainOne_content_box5:hover .hover_text_one {
+    display: block;
 }
 
 .mainOne_content_box6 {
@@ -356,6 +466,19 @@ p {
     display: flex;
     align-items: end;
     justify-content: center;
+    position: relative;
+}
+
+.mainOne_content_box6:hover .hover_text_three {
+    display: block;
+}
+
+.mainOne_content_box6:hover .hover_text_two {
+    display: block;
+}
+
+.mainOne_content_box6:hover .hover_text_one {
+    display: block;
 }
 
 .mainOne_content_img {
@@ -393,6 +516,28 @@ p {
 
 .mainTwo_content_img {
     width: 100%;
+}
+
+.strelki {
+    display: none !important;
+}
+
+.strelki2 {
+    display: none !important;
+}
+
+.owl-prev {
+    position: absolute;
+    left: -50px;
+    transform: scale(4);
+    top: 250px;
+}
+
+.owl-next {
+    position: absolute;
+    right: -50px;
+    transform: scale(4);
+    top: 250px;
 }
 
 .mainTwo {
@@ -709,7 +854,7 @@ p {
 }
 
 .prelast_box {
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
 }
@@ -720,6 +865,26 @@ p {
     background: black;
     margin-right: 10px;
     cursor: pointer;
+}
+
+.owl-carousel button.owl-dot {
+    width: 12px;
+    height: 12px;
+    color: black !important;
+    margin-right: 10px;
+    cursor: pointer;
+    background-color: black !important;
+}
+
+.owl-dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 42px;
+}
+
+.owl-carousel button.owl-dot:hover {
+    background: linear-gradient(65.81deg, #5E3928 -24.09%, #E4A16F 104.02%);
 }
 
 .navKub2:hover {

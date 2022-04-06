@@ -16,9 +16,6 @@
     @media screen and (max-width:991px) {}
     
     @media screen and (max-width:768px) {
-        .mainTwo_content_box1 {
-            display: none;
-        }
         .pre_last_box1 {
             display: none;
         }
@@ -77,9 +74,6 @@
     
     @media screen and (max-width:566px) {
         .pre_last_box2 {
-            display: none;
-        }
-        .mainTwo_content_box2 {
             display: none;
         }
         .last_content_box {

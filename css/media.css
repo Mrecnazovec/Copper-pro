@@ -11,14 +11,37 @@
         .header_box_pos1 {
             right: 190px;
         }
+        .item_navbar:nth-child(2) {
+            width: 450px;
+        }
+        .mainTwo_flex_text {
+            max-width: 160px;
+        }
     }
     
-    @media screen and (max-width:991px) {}
+    @media screen and (max-width:991px) {
+        .footer_list {
+            display: block;
+        }
+        .footer_item {
+            margin-bottom: 50px;
+        }
+        .footer_list_two {
+            width: 100%;
+        }
+        .list_navbar {
+            display: block;
+        }
+        .navbar_logo {
+            margin-right: 30px;
+            margin-bottom: 50px;
+        }
+        .navbar {
+            margin-bottom: 50px;
+        }
+    }
     
     @media screen and (max-width:768px) {
-        .pre_last_box1 {
-            display: none;
-        }
         .strelki {
             display: none;
         }
@@ -61,36 +84,33 @@
             margin-bottom: 80px;
         }
         .footer_list_two {
-            flex-direction: column;
-            text-align: center;
-        }
-        .footer_list_two {
             width: 100%;
         }
         .footer_item {
             margin: auto;
-        }
-    }
-    
-    @media screen and (max-width:566px) {
-        .pre_last_box2 {
-            display: none;
         }
         .last_content_box {
             display: flex;
             align-items: center;
             justify-content: center;
             flex-direction: column;
+            text-align: center;
         }
-        .header_box_pos4 {
+        .navbar {
+            margin-bottom: 150px;
+        }
+    }
+    
+    @media screen and (max-width:566px) {
+        .last_content_box {
             display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
         }
-        .header_box_pos2 {
-            display: none;
-        }
-        .item_navbar:last-child {
-            display: none;
-        }
+        .header_box_pos4 {}
+        .header_box_pos2 {}
+        .item_navbar:last-child {}
         .navbar {
             margin-bottom: 55px;
         }
@@ -102,7 +122,7 @@
             line-height: 114.9%;
             /* or 34px */
             color: #FFFFFF;
-            margin-bottom: 50px;
+            margin-bottom: 10px;
         }
         .header_section_content_info {
             font-family: 'Mont';
@@ -145,12 +165,82 @@
             height: 772px;
         }
         .header_box_pos3 {
-            right: 60px;
+            right: 130px;
         }
         .header_box_pos1 {
-            right: 130px;
+            right: 200px;
         }
         .header_section_content_button2 {
             padding: 16px 63px;
+        }
+        .header_box_pos2 {
+            right: 60px;
+        }
+        .header_section_content_box {
+            max-width: 200px;
+        }
+        .header_section_content_price_text {
+            margin-right: 50px;
+        }
+        .footer_item_two {
+            margin-right: 40px;
+        }
+        .footer_list_two {
+            flex-wrap: wrap;
+        }
+        .last_title {
+            line-height: 100%;
+        }
+        .pre_last_title {
+            line-height: 100%;
+        }
+        .mainTwo_title {
+            line-height: 100%;
+        }
+    }
+    
+    @media screen and (max-width:475px) {
+        .item_navbar:nth-child(2) {
+            display: none;
+        }
+        .header_box_pos1 {
+            width: 35px;
+            right: 150px;
+        }
+        .header_box_pos2 {
+            width: 35px;
+            right: 50px;
+        }
+        .header_box_pos3 {
+            width: 35px;
+            right: 100px;
+        }
+        .header_box_pos4 {
+            display: flex;
+        }
+        .footer_item_two {
+            margin-right: 10px;
+        }
+    }
+    
+    @media screen and (max-width:365px) {
+        .header_box_pos1 {
+            display: none;
+        }
+    }
+    
+    @media screen and (max-width:315px) {
+        .header_box_pos1 {
+            display: none;
+        }
+        .header_box_pos2 {
+            width: 35px;
+            right: 50px;
+            display: none;
+        }
+        .header_box_pos3 {
+            width: 35px;
+            right: 100px;
+            display: none;
         }
     }

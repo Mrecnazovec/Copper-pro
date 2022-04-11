@@ -605,6 +605,10 @@ p {
     top: 250px;
 }
 
+.owl-prev:hover {}
+
+.owl-prev span {}
+
 .owl-next {
     position: absolute;
     right: -50px;
@@ -948,6 +952,7 @@ p {
     position: absolute;
     top: 0;
     right: 0;
+    width: fit-content !important;
 }
 
 .nav_div2 {

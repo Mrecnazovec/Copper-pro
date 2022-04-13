@@ -89,7 +89,7 @@ p {
     background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
     position: absolute;
     top: 0;
-    z-index: 1;
+    z-index: 2;
     display: none;
 }
 
@@ -110,7 +110,7 @@ p {
     cursor: pointer;
     transition: all 0.3s linear;
     display: none;
-    z-index: 2;
+    z-index: 3;
 }
 
 .checkboxTwo {
@@ -421,6 +421,12 @@ p {
     position: relative;
 }
 
+.carousel_flex_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .mainTwo_content_box2 {
     margin-bottom: 47px;
     position: relative;
@@ -655,3 +661,83 @@ p {
 
 
 /* footer end */
+
+
+/* carousel setting start */
+
+.owl-dots {
+    display: flex;
+    justify-content: center;
+}
+
+.owl-dot:first-child {
+    width: 38px;
+    height: 48px;
+    border: 1px solid #B3B9B8 !important;
+    margin-right: 9px;
+    background-image: url(../assets/icons/11.svg) !important;
+    background-repeat: no-repeat !important;
+    background-position: 13px 15px !important;
+    background-size: 6px 17px !important;
+}
+
+.owl-dot {
+    width: 38px;
+    height: 48px;
+    border: 1px solid #B3B9B8 !important;
+    margin-right: 9px;
+    background-image: url(../assets/icons/2.svg) !important;
+    background-repeat: no-repeat !important;
+    background-position: 11px 15px !important;
+}
+
+.owl-dot:nth-child(3) {
+    width: 38px;
+    height: 48px;
+    border: 1px solid #B3B9B8 !important;
+    margin-right: 9px;
+    background-image: url(../assets/icons/3.svg) !important;
+    background-repeat: no-repeat !important;
+    background-position: 11px 15px !important;
+}
+
+.owl-dot:nth-child(4) {
+    width: 38px;
+    height: 48px;
+    border: 1px solid #B3B9B8 !important;
+    margin-right: 9px;
+    background-image: url(../assets/icons/4.svg) !important;
+    background-repeat: no-repeat !important;
+    background-position: 11px 15px !important;
+}
+
+.owl-dot span {}
+
+.owl-dot:focus {
+    background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%) !important;
+}
+
+.owl-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.owl-prev {
+    transform: scale(4);
+    margin-right: 223px;
+    margin-bottom: -30px;
+}
+
+.owl-next {
+    transform: scale(4);
+    margin-bottom: -30px;
+    margin-right: 11px;
+}
+
+.owl-dot active {
+    background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%) !important;
+}
+
+
+/* caroisel setting end */

@@ -1,19 +1,19 @@
 $('.owl-carousel').owlCarousel({
-    loop: true,
+    loop: false,
     margin: 30,
     nav: true,
     dots: true,
-    autoplay: true,
-    autoplayTimeout: 50000,
+
+
     responsive: {
         0: {
             items: 1
         },
         626: {
-            items: 2
+            items: 1
         },
         900: {
-            items: 3
+            items: 1
         }
     }
 })

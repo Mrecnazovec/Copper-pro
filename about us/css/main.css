@@ -115,7 +115,7 @@ p {
     font-weight: 600;
     font-size: 18px;
     /* or 17px */
-    color: #031412;
+    color: #031412 !important;
     text-decoration: none;
     margin-bottom: 128px;
 }

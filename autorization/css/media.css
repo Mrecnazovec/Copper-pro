@@ -1,0 +1,11 @@
+@media screen and (max-width:449px) {
+    .mainOne_end_content_text {
+        margin-right: 40px;
+    }
+    .mainOne_end_content {
+        padding: 15px 10px;
+    }
+    .mainOne_content {
+        padding: 20px 27px;
+    }
+}
